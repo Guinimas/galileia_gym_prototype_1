@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quem somos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="bg-[#030f3C] text-white p-4 flex justify-between items-center fixed top-0 left-0 w-full z-50">
+        <h1><a href="index.html" class="text-2xl font-bold">Galiléia Gym</a></h1>
+        <nav class="hidden md:flex space-x-4">
+            <a href="#" class="hover:underline">Seja um colaborador</a>
+            <a href="#" class="hover:underline">Contribuições</a>
+            <a href="#" class="hover:underline">Colaboradores</a>
+            <a href="sobre-nos.html" class="hover:underline">Sobre nós</a>
+            <a href="#" class="hover:underline">Galeria</a>
+            <a href="#" class="hover:underline">Notícias</a>
+            <a href="#" class="hover:underline">Eventos</a>
+            <a href="#" class="hover:underline">Sugestões</a>
+        </nav>
+        <div class="flex items-center space-x-2">
+            <button type="button"
+                class="bg-green-600 px-4 py-2 rounded text-white hover:bg-green-700 transition-colors">Login</button>
+            <button type="button" id="menuBtn"
+                class="md:hidden bg-blue-600 px-3 py-2 rounded text-white focus:outline-none">Menu</button>
+        </div>
+    </header>
+
+    <!-- Espaço para o header fixo -->
+    <div class="h-20 md:h-20"></div>
+
+    <!-- Menu lateral oculto (direita) -->
+    <div id="sideMenu"
+        class="fixed top-0 right-0 h-full w-64 bg-[#030f3C] text-white p-6 transform translate-x-full transition-transform duration-300 z-50">
+        <button id="closeMenu" class="mb-4 text-right w-full">Fechar ✕</button>
+        <ul>
+            <li class="mb-2"><a href="#" class="hover:underline">Seja um colaborador</a></li>
+            <li class="mb-2"><a href="#" class="hover:underline">Contribuições</a></li>
+            <li class="mb-2"><a href="#" class="hover:underline">Colaboradores</a></li>
+        </ul>
+    </div>
+    <main class="p-4 pb-24">
+        <section class="mb-6">
+            <h2 class="text-xl font-semibold text-center">Quem somos</h2>
+            <p class="text-center">Galiléia Gym é uma academia ao ar livre dedicada a promover saúde e bem-estar na comunidade.</p>
+        </section>
+
+        <section>
+            <h3 class="text-lg font-semibold text-center">Nossa missão</h3>
+            <p class="text-center">Promover um estilo de vida saudável através de atividades físicas acessíveis a todos.</p>
+        </section>
+
+        <section>
+            <h3 class="text-lg font-semibold text-center">Nossa visão</h3>
+            <p class="text-center">Ser reconhecida como a principal academia ao ar livre da região, oferecendo um espaço inclusivo e motivador.</p>
+        </section>
+
+        <section>
+            <h3 class="text-lg font-semibold text-center mt-4">Endereço</h3>
+            <p class="text-center">Rua Exemplo, 123 - Nova Cidade, Conjunto Galiléia Manaus - AM, CEP 12345-678</p>
+            <p class="text-center">Telefone: (92) 91234-5678</p>
+        </section>
+</body>
+</html>
